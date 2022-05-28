@@ -14,6 +14,8 @@ BuildRequires:  cmake
 BuildRequires:  vulkan-headers
 BuildRequires:  pkgconfig(vulkan)
 BuildRequires:  pkgconfig(xrandr)
+BuildRequires:	pkgconfig(dri)
+BuildRequires:	pkgconfig(gl)
 
 %description
 Ashes is a drop-in replacement or ICD to Vulkan.
