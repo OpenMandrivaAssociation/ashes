@@ -18,6 +18,13 @@ BuildRequires:  pkgconfig(xrandr)
 BuildRequires:	pkgconfig(dri)
 BuildRequires:	pkgconfig(gl)
 
+BuildRequires:  pkgconfig(x11)
+BuildRequires:  pkgconfig(xcursor)
+BuildRequires:  pkgconfig(xi)
+BuildRequires:  pkgconfig(xinerama)
+BuildRequires:  pkgconfig(xrandr)
+BuildRequires:  pkgconfig(xxf86vm)
+
 %description
 Ashes is a drop-in replacement or ICD to Vulkan.
 It allows to write Vulkan code, and to select the rendering API that will be used.
