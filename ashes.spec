@@ -13,6 +13,7 @@ Source0: https://github.com/DragonJoker/Ashes/archive/refs/heads/Ashes-%{git}.ta
 BuildRequires:  cmake
 BuildRequires:  vulkan-headers
 BuildRequires:  pkgconfig(vulkan)
+BuildRequires:	pkgconfig(wayland-egl)
 BuildRequires:  pkgconfig(xrandr)
 BuildRequires:	pkgconfig(dri)
 BuildRequires:	pkgconfig(gl)
