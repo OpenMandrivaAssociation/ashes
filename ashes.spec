@@ -50,7 +50,7 @@ Direct3D 11: From feature level 11.0.
 	        -DPROJECTS_PROFILING=OFF \
 	        -DPROJECTS_USE_PRECOMPILED_HEADERS=OFF \
 	        -DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX="/usr"
+		-DCMAKE_INSTALL_PREFIX="%{_libdir}"
   
 %make_build
   
