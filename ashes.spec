@@ -95,7 +95,7 @@ find . -name "*.cmake" -o -name CMakeLists.txt |xargs sed -i -e 's,DESTINATION l
 ARCH=%{_target_cpu}
 [ "$ARCH" = "znver1" ] && ARCH=x86_64
 mkdir -p %{buildroot}%{_datadir}/vulkan/icd.d
-sed -i -e 's,\./lib,%{_libdir}/lib,g' %{buildroot}%{_libdir}/ashesGlRenderer_icd.json >%{buildroot}%{_datadir}/vulkan/icd.d/ashesGlRenderer_icd.$ARCH.json
+sed -e 's,\./lib,%{_libdir}/lib,g' %{buildroot}%{_libdir}/ashesGlRenderer_icd.json >%{buildroot}%{_datadir}/vulkan/icd.d/ashesGlRenderer_icd.$ARCH.json
 rm %{buildroot}%{_libdir}/ashesGlRenderer_icd.json
 
 %files -n %{devname}
