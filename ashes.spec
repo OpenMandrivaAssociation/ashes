@@ -49,8 +49,7 @@ Direct3D 11: From feature level 11.0.
 	        -DPROJECTS_GENERATE_DOC=OFF \
 	        -DPROJECTS_PROFILING=OFF \
 	        -DPROJECTS_USE_PRECOMPILED_HEADERS=OFF \
-	        -DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX="%{_libdir}"
+	        -DCMAKE_BUILD_TYPE=Release
   
 %make_build
   
