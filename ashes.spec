@@ -5,7 +5,7 @@
 Name: ashes
 Summary: Drop-in replacement for Vulkan shared library, for older hardware compatibility
 Version:	0.%{git}
-Release:	1
+Release:	2
 Group: System/X11
 License: MIT
 URL: https://dragonjoker.github.io/Ashes/
